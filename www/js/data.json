@@ -1,0 +1,114 @@
+{
+  "store": [
+    {
+    "id":0,
+      "floorCount": 2,
+      "bathCount": 3,
+      "bedroomCount": 2,
+      "model": "A",
+      "measures": "200m2",
+      "finalCost": 233.43,
+      "monthCost": 20.32,
+      "urlImage": "http://www.construyehogar.com/wp-content/uploads/2016/01/Fachada-de-moderna-casa-de-dos-pisos-wbhomes.com_.au--560x352.jpg" 
+    }, {
+        "id":1,
+      "floorCount": 2,
+      "bathCount": 3,
+      "bedroomCount": 2,
+      "model": "B",
+      "measures": "200m2",
+      "finalCost": 233.43,
+      "monthCost": 20.32,
+      "urlImage": "http://www.construyehogar.com/wp-content/uploads/2016/01/Fachada-de-moderna-casa-de-dos-pisos-wbhomes.com_.au--560x352.jpg"
+    }, {
+        "id":2,
+      "floorCount": 2,
+      "bathCount": 3,
+      "bedroomCount": 2,
+      "model": "C",
+      "measures": "200m2",
+      "finalCost": 233.43,
+      "monthCost": 20.32,
+      "urlImage": "http://www.construyehogar.com/wp-content/uploads/2016/01/Fachada-de-moderna-casa-de-dos-pisos-wbhomes.com_.au--560x352.jpg"
+    }, {
+        "id":3,
+      "floorCount": 2,
+      "bathCount": 3,
+      "bedroomCount": 2,
+      "model": "D",
+      "measures": "200m2",
+      "finalCost": 233.43,
+      "monthCost": 20.32,
+      "urlImage": "http://www.construyehogar.com/wp-content/uploads/2016/01/Fachada-de-moderna-casa-de-dos-pisos-wbhomes.com_.au--560x352.jpg"
+    }, {
+        "id":4,
+      "floorCount": 2,
+      "bathCount": 3,
+      "bedroomCount": 2,
+      "model": "E",
+      "measures": "200m2",
+      "finalCost": 233.43,
+      "monthCost": 20.32,
+      "urlImage": "http://www.construyehogar.com/wp-content/uploads/2016/01/Fachada-de-moderna-casa-de-dos-pisos-wbhomes.com_.au--560x352.jpg"
+    }, {
+        "id":5,
+      "floorCount": 2,
+      "bathCount": 3,
+      "bedroomCount": 2,
+      "model": "F",
+      "measures": "200m2",
+      "finalCost": 233.43,
+      "monthCost": 20.32,
+      "urlImage": "http://www.construyehogar.com/wp-content/uploads/2016/01/Fachada-de-moderna-casa-de-dos-pisos-wbhomes.com_.au--560x352.jpg"
+    }
+  ],
+  "usuarios": [
+    {
+      "nombre": "Robert",
+      "apellidos": "López Smith",
+      "edad": 65,
+      "telefono": "6668889994",
+      "en_activo": true,
+      "foto":"foto1.jpg",
+      "uso": 3,
+      "id": 0
+    }
+  ],
+  "transaction":[
+      {
+          "id":0,
+        "transactionDate": "12-06-16",
+        "paidConfirm": true,
+        "monthPaid": 23.21,
+        "details": "tarjeta mastercard visa"
+      },
+      {
+          "id":1,
+        "transactionDate": "12-06-16",
+        "paidConfirm": true,
+        "monthPaid": 23.21,
+        "details": "tarjeta mastercard visa"
+      },
+      {
+          "id":2,
+        "transactionDate": "12-06-16",
+        "paidConfirm": true,
+        "monthPaid": 23.21,
+        "details": "tarjeta mastercard visa"
+      },
+      {
+          "id":3,
+        "transactionDate": "12-06-16",
+        "paidConfirm": true,
+        "monthPaid": 23.21,
+        "details": "tarjeta mastercard visa"
+      },
+      {
+          "id":4,
+        "transactionDate": "12-06-16",
+        "paidConfirm": true,
+        "monthPaid": 23.21,
+        "details": "tarjeta mastercard visa"
+      }
+  ]
+}

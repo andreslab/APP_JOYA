@@ -1,0 +1,31 @@
+<ion-view >
+  <ion-content >
+    <div class="list">
+      <div class="item item-text-wrap background-list" ng-repeat="item in store">
+      <a class="back-link" ng-href="#/tab/detail/{{item.id}}">
+        <div class="preview item-image full-image" >
+            <img class="imgPreview" src="{{item.urlImage}}" />
+            <div class="row-padding">
+                
+                <!--<i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.floorCount}}</i>-->
+                <div class="row">
+                  <div class="col">Modelo {{item.model}}</div>
+                  <div class="col"></div>
+                </div>
+                <div class="row">
+                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.bathCount}} Baños</i></div>
+                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.bedroomCount}} Dormitorios</i> </div>
+                </div>
+                <div class="row">
+                  <div class="col">Precio: ${{item.finalCost}}</div>
+                  <div class="col">Cuotas: ${{item.monthCost}}</div>
+                </div>
+                
+            </div>
+        </div>
+      </a>
+      </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

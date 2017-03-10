@@ -1,0 +1,169 @@
+/* Empty. Add your own CSS if you like */
+/* Empty. Add your own CSS if you like */
+.noresumido{
+	background-color: #fdf2d1 !important;
+}
+.noresumido .item-content{
+	background: transparent;;
+}
+
+ion-content.inactivo{
+	opacity: 0.4;
+	background-color: #fdf2d1;
+}
+.mi_contenedor{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+.img_rounded{
+	border-radius: 8px;
+	overflow: hidden;
+	width: 214px;
+	height: 236px;
+	margin: 0 auto;
+}
+.img_rounded img{
+	width: 100%;
+}
+.mi_contenedor h2{
+	text-align: center;
+	background-color: #fdf2d1;
+}
+
+.rotulo{
+	color: #666666;
+}
+.valor{
+	color: #333333;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+
+/*---------------------------*/
+.backgroundProfile{
+    width:100%;
+    height:30%;
+    background-color: red;
+    margin: 0px;;
+    padding: 0px;
+
+}
+
+.imgProfile{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+.log{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.propertyImg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(5px);
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(150, 200, 0, 0.45), 
+      rgba(5, 5, 5, 0.7)
+    ),
+    /* bottom, image */
+    url("../img/backUrbanizacion.jpg");
+    
+    background-position: center center;
+    background-size: cover;
+}
+
+.log p{
+    color: white;
+    font-size: 15px;
+}
+
+.row{
+    overflow: hidden;
+}
+
+
+.background{
+    background: no-repeat;
+    display:block;
+    background-size:100%;
+    background-position:left center;
+}
+
+
+.preview{
+    background-color:white;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 4px 18px -2px rgba(214,214,214,1);
+    -moz-box-shadow: 0px 4px 18px -2px rgba(214,214,214,1);
+    box-shadow: 0px 4px 18px -2px rgba(214,214,214,1);
+    width: 100%;
+}
+
+.imgPreview{
+max-width: 100%;
+max-height: 100%;
+}
+
+
+.row-padding{
+    padding: 10px; 
+   
+}
+.background-list{
+    background-color: rgb(240,240,240);
+
+}
+.back-link{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.col{
+    text-align: left;
+    color: black;
+}
+.col-right{
+    text-align: right !important;
+}
+a{
+text-decoration:none; }
+
+.bar-balanced{
+    background-color: #056839 !important;
+}
+
+/*tab color*/
+/*sobreescribiendo clases de ionic*/
+
+ion-tabs.tabs-color-active-balanced .tab-item {
+  color: rgb(180,180,180); }
+
+  ion-tabs.tabs-color-active-balanced .tab-item.tab-item-active, ion-tabs.tabs-color-active-balanced .tab-item.active, ion-tabs.tabs-color-active-balanced .tab-item.activated {
+    color: #056839 !important; }
+
+ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.tab-item-active, ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.active, ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.activated {
+  border-color: #056839 !important;
+  color: #056839 !important; }
+
+/*-------------------------------*/
+
