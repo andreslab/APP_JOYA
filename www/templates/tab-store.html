@@ -1,5 +1,7 @@
 <ion-view >
   <ion-content >
+    
+
     <div class="list">
       <div class="item item-text-wrap background-list" ng-repeat="item in store">
       <a class="back-link" ng-href="#/tab/detail/{{item.ID}}">
@@ -13,8 +15,10 @@
                   <div class="col"></div>
                 </div>
                 <div class="row">
-                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.bano}} Baños</i></div>
-                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.dormitorios}} Dormitorios</i> </div>
+                  <!--<img class="col-icon" width="60px" height="60px" src="img/bath.png" alt="">-->
+                  <div class="col"> <!--&nbsp;&nbsp;-->{{item.bano}} Baños</div>
+                  <!--<img class="col-icon" width="60px" height="60px" src="img/bed.png" alt="">-->
+                  <div class="col"><!--&nbsp;&nbsp;-->{{item.dormitorios}} Dormitorios </div>
                 </div>
                 <div class="row">
                   <div class="col">Precio: ${{item.precio}}</div>

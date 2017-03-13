@@ -1,8 +1,9 @@
 <ion-view >
   <ion-content>
+   
     <ion-list class="list">
-     <ion-item  lass="item-thumbnail-left item-text-wrap" ng-repeat="item in paid" href="#/tab/detailcash/{{item.id}}">
-        
+    <!-- <ion-item  lass="item-thumbnail-left item-text-wrap" ng-repeat="item in paid" href="#/tab/detailcash/{{item.id}}">-->
+      <ion-item  lass="item-thumbnail-left item-text-wrap" ng-repeat="item in paid" >  
          <div class="row">
                   <div class="col">Valor Cancelado: ${{item.monthPaid}}</div>
                   <div class="col col-right">{{item.transactionDate}}</div>

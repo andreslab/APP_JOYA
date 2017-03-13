@@ -1,5 +1,7 @@
 <ion-view >
   <ion-content class="padding">
+
+    
     
     <div class="preview item-image full-image" >
          <img class="imgPreview"  src="{{item.img}}" alt="">
@@ -13,17 +15,17 @@
                   <div class="col"></div>
                 </div>
                 <div class="row">
-                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.bano}} Baños</i></div>
+                  <div class="col"><!--&nbsp;&nbsp;-->{{item.bano}} Baños</div>
                   <div class="col">Medidas: ${{item.area_de_terreno}}</div>
                 </div>
               
                 <div class="row">
-                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.dormitorios}} Dormitorios</i> </div>
+                  <div class="col">{{item.dormitorios}} Dormitorios </div>
                   <div class="col">Cuotas: ${{item.cuota_casa}}</div>
                 </div>
 
                  <div class="row">
-                   <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.plantas}} Pisos</i> </div>
+                   <div class="col">{{item.plantas}} Pisos</div>
                     <div class="col">Precio: ${{item.precio}}</div>
                 </div>
                 

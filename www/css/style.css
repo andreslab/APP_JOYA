@@ -82,8 +82,9 @@ ion-content.inactivo{
     background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
-      rgba(150, 200, 0, 0.45), 
-      rgba(5, 5, 5, 0.7)
+        rgba(5, 5, 5, 0.7),
+      rgba(150, 200, 0, 0.45)
+      
     ),
     /* bottom, image */
     url("../img/backUrbanizacion.jpg");
@@ -94,7 +95,7 @@ ion-content.inactivo{
 
 .log p{
     color: white;
-    font-size: 15px;
+    font-size:20px;
 }
 
 .row{
@@ -161,9 +162,26 @@ ion-tabs.tabs-color-active-balanced .tab-item {
   ion-tabs.tabs-color-active-balanced .tab-item.tab-item-active, ion-tabs.tabs-color-active-balanced .tab-item.active, ion-tabs.tabs-color-active-balanced .tab-item.activated {
     color: #056839 !important; }
 
-ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.tab-item-active, ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.active, ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.activated {
+ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.tab-item-active, ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.active, ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.activated,  {
   border-color: #056839 !important;
   color: #056839 !important; }
 
+  .button-balanced{
+      background-color: #056839 !important;
+  }
+
+  .bar-balanced{
+      border-color: #056839 !important;
+  }
+
+  .item-checkbox{
+     border-color: white;
+  }
+
 /*-------------------------------*/
+
+.button-light{
+    background-color: rgba(210, 210, 210, .5) !important;
+    color: black !important;
+}
 

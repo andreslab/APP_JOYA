@@ -36,23 +36,24 @@
   </head>
   <body ng-app="starter">
 
-     <!--<ion-nav-bar class="bar-assertive"  >
-     <ion-nav-buttons side="left">
-        <a class="button button-clear ion-home" href="#/tab/home"></a>
-      </ion-nav-buttons>
-      <h1 class="title">La Joya</h1>
-      <ion-nav-buttons side="secondary" >
-        <a class="button button-clear ion-ios-settings" ui-sref="tab.info"></a>
-      </ion-nav-buttons>
-    </ion-nav-bar>-->
+     
 
     <ion-header-bar align-title="center" class="bar-balanced">
-    
-    <h1 class="title">La Joya</h1>
-    <!--<div class="buttons">
-      <button class="button ion-ios-settings button-clear" ></button>
+      <!--<div class="buttons">
+      <button class="button ion-ios-arrow-back button-clear" onClick="goBack()"></button>
     </div>-->
-  </ion-header-bar>
+    <h1 class="title">La joya</h1>
+   
+    
+    </ion-header-bar>
+
+    <script>
+      function goBack() {
+        window.history.back();
+    } 
+</script>
+
+
 
 
     <!--
