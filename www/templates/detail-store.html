@@ -1,16 +1,32 @@
 <ion-view >
   <ion-content class="padding">
     
-    <h1>{{item.model}}</h1>
-    <ul>
-      <img src="{{item.urlImage}}" alt="">
-      <li>{{item.floorCount}}</li>
-      <li>{{item.bathCount}}</li>
-      <li>{{item.bedroomCount}}</li>
-      <li>{{item.measures}}</li>
-      <li>{{item.finalCost}}</li>
-      <li>{{item.monthCost}}</li>
-      
-    </ul>
+    <div class="preview item-image full-image" >
+         <img class="imgPreview"  src="{{item.img}}" alt="">
+     </div>
+
+    <div class="row-padding">
+                
+                <!--<i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.floorCount}}</i>-->
+                <div class="row">
+                  <div class="col">{{item.post_title}}</div>
+                  <div class="col"></div>
+                </div>
+                <div class="row">
+                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.bano}} Baños</i></div>
+                  <div class="col">Medidas: ${{item.area_de_terreno}}</div>
+                </div>
+              
+                <div class="row">
+                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.dormitorios}} Dormitorios</i> </div>
+                  <div class="col">Cuotas: ${{item.cuota_casa}}</div>
+                </div>
+
+                 <div class="row">
+                   <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.plantas}} Pisos</i> </div>
+                    <div class="col">Precio: ${{item.precio}}</div>
+                </div>
+                
+            </div>
   </ion-content>
 </ion-view>

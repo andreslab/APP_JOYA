@@ -1,18 +1,27 @@
 angular.module('starter.controllers', [])
 
 .controller('StoreCtrl', ['$scope', '$http', '$state', function($scope, $http, $state){
-  $http.get('js/data.json')
+  //$http.get('js/data.json')
+  $http.get('https://www.lajoya.ec/wp-json/api/v1/casas')
   .success(function(data){
-    $scope.store = data.store;
+    $scope.store = data.data;
   });
   //console.log("store detail");
 }])
 
 .controller('StoreDetailCtrl', ['$scope', '$http', '$state', function($scope, $http, $state){
-  $http.get('js/data.json')
-  .success(function(data){
+  //$http.get('js/data.json')
+  $http.get('https://www.lajoya.ec/wp-json/api/v1/casas')
+  .success(function(data_filter){
     //$state pasa el stado o parametros que se pasan 
-   $scope.item = data.store[$state.params.id];
+    let colect = data_filter.data;
+    colect.forEach(element =>{
+      if(element.ID ==  $state.params.id){
+        $scope.item = element;
+      }
+    });
+   //$scope.item = data_filter.data[$state.params.id]; //usaba el id que no tenia un orden sino numeros aleatorios
+    //$scope.item = data_filter.data[0]; // usa el orden de la lista
   });
   //console.log("store detail");
 }])

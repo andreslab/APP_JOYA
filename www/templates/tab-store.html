@@ -2,23 +2,23 @@
   <ion-content >
     <div class="list">
       <div class="item item-text-wrap background-list" ng-repeat="item in store">
-      <a class="back-link" ng-href="#/tab/detail/{{item.id}}">
+      <a class="back-link" ng-href="#/tab/detail/{{item.ID}}">
         <div class="preview item-image full-image" >
-            <img class="imgPreview" src="{{item.urlImage}}" />
+            <img class="imgPreview" src="{{item.img}}" />
             <div class="row-padding">
                 
                 <!--<i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.floorCount}}</i>-->
                 <div class="row">
-                  <div class="col">Modelo {{item.model}}</div>
+                  <div class="col">{{item.post_title}}</div>
                   <div class="col"></div>
                 </div>
                 <div class="row">
-                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.bathCount}} Baños</i></div>
-                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.bedroomCount}} Dormitorios</i> </div>
+                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.bano}} Baños</i></div>
+                  <div class="col"><i class="icon ion-ios-telephone">&nbsp;&nbsp;{{item.dormitorios}} Dormitorios</i> </div>
                 </div>
                 <div class="row">
-                  <div class="col">Precio: ${{item.finalCost}}</div>
-                  <div class="col">Cuotas: ${{item.monthCost}}</div>
+                  <div class="col">Precio: ${{item.precio}}</div>
+                  <div class="col">Cuotas: ${{item.cuota_casa}}</div>
                 </div>
                 
             </div>
