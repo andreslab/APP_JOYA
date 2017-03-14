@@ -178,8 +178,6 @@ ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.tab-item-active, ion-
      border-color: white;
   }
 
-/*-------------------------------*/
-
 .button-light{
     background-color: rgba(210, 210, 210, .5) !important;
     color: black !important;

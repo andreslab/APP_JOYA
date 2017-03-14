@@ -106,3 +106,13 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   $urlRouterProvider.otherwise('/tab/store');
 
 });
+
+//notificationes firebase android
+window.FirebasePlugin.onNotificationOpen(function(notification) {
+    console.log(notification);
+}, function(error) {
+    console.error(error);
+});
+
+//notificaciones firebase ios
+window.FirebasePlugin.grantPermission();
