@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "682331084709",
-    "firebase_url": "https://lajoya-bdde5.firebaseio.com",
-    "project_id": "lajoya-bdde5",
-    "storage_bucket": "lajoya-bdde5.appspot.com"
+    "project_number": "668803831879",
+    "firebase_url": "https://lajoya-c527a.firebaseio.com",
+    "project_id": "lajoya-c527a",
+    "storage_bucket": "lajoya-c527a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:682331084709:android:b80a4d8247e88d45",
+        "mobilesdk_app_id": "1:668803831879:android:b80a4d8247e88d45",
         "android_client_info": {
           "package_name": "com.ionicframework.lajoya959617"
         }
       },
       "oauth_client": [
         {
-          "client_id": "682331084709-78ic8bh3g2vqh1mtbs78vatgbk0137iq.apps.googleusercontent.com",
+          "client_id": "668803831879-3d34lp5qs1ml19cecnaogbjiadddrg4s.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAX0RGKzRByCGc9CrUvn0R_p6NVq6cHCaA"
+          "current_key": "AIzaSyAQLC-z7yTtT5FYdiarhyOge15C0Z0drgc"
         }
       ],
       "services": {

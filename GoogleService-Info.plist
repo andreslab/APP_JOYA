@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>682331084709-4h62bcvgv7h344eh5qnlhii4h28o0fro.apps.googleusercontent.com</string>
+	<string>668803831879-974ecck9uojmm9sev7c342flal1cq4ql.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.682331084709-4h62bcvgv7h344eh5qnlhii4h28o0fro</string>
+	<string>com.googleusercontent.apps.668803831879-974ecck9uojmm9sev7c342flal1cq4ql</string>
 	<key>API_KEY</key>
-	<string>AIzaSyC-7bx-of3swonzRLrwYIGBkQrwfi2szv8</string>
+	<string>AIzaSyBBbfs32Gl304EKu5KY3DErzu3VWpAk1E4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>682331084709</string>
+	<string>668803831879</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.ionicframework.lajoya959617</string>
 	<key>PROJECT_ID</key>
-	<string>lajoya-bdde5</string>
+	<string>lajoya-c527a</string>
 	<key>STORAGE_BUCKET</key>
-	<string>lajoya-bdde5.appspot.com</string>
+	<string>lajoya-c527a.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:682331084709:ios:b80a4d8247e88d45</string>
+	<string>1:668803831879:ios:b80a4d8247e88d45</string>
 	<key>DATABASE_URL</key>
-	<string>https://lajoya-bdde5.firebaseio.com</string>
+	<string>https://lajoya-c527a.firebaseio.com</string>
 </dict>
 </plist>
