@@ -110,6 +110,15 @@ angular.module('starter', ['ionic','chart.js','starter.controllers', 'starter.se
       }
     }
   })
+  .state('tab.user',{
+    url:'/user',
+    views:{
+      'tab-user':{
+        templateUrl: 'templates/tab-user.html',
+        controller: 'UserCtrl'
+      }
+    }
+  })
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/store');

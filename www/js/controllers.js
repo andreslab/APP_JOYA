@@ -30,22 +30,29 @@ angular.module('starter.controllers', [])
   console.log("account");
 })
 
-.controller('LoginCtrl', function($scope){
+.controller('LoginCtrl', ['$scope', function($scope){
   console.log("login");
+  $scope.ci="1234";
+  $scope.pass="1234";
   $scope.sendForm = function(){
-    console.log('entro al login');
-    if(true){
+
+    console.log(this.ci);
+    console.log(this.pass);
+    
+    if(this.ci == "12345"){
       window.location.href='#/tab/chart';
+    }else if(this.ci == "54321"){
+      window.location.href='#/tab/user';
     }
   }
-})
+}])
 .controller('LineCtrl',function($scope){
   //console.log('CHART');
   $scope.labels = ["January", "February", "March", "April", "May", "June", "July"];
   $scope.series = ['Series A', 'Series B'];
   $scope.data = [
-    [65, 59, 80, 81, 56, 55, 40],
-    [28, 48, 40, 19, 86, 27, 90]
+    [65, 59, 80, 81, 56, 55, 40]/*,
+    [28, 48, 40, 19, 86, 27, 90]*/
   ];
   $scope.onClick = function (points, evt) {
     console.log(points, evt);
@@ -71,6 +78,10 @@ angular.module('starter.controllers', [])
   };
 })
 
+.controller('UserCtrl', ['$scope', '$http', '$state', function($scope, $http, $state){
+  console.log("usuario");
+  //console.log("store detail");
+}])
 .controller('CashCtrl', ['$scope', '$http', '$state', function($scope, $http, $state){
   $http.get('js/data.json')
   .success(function(data){
