@@ -9,7 +9,7 @@ angular.module('starter.controllers', [])
   //console.log("store detail");
 }])
 
-.controller('StoreDetailCtrl', ['$scope', '$http', '$state', function($scope, $http, $state){
+.controller('StoreDetailCtrl', ['$scope','chart.js', '$http', '$state', function($scope, $http, $state){
   //$http.get('js/data.json')
   $http.get('https://www.lajoya.ec/wp-json/api/v1/casas')
   .success(function(data_filter){
@@ -30,8 +30,45 @@ angular.module('starter.controllers', [])
   console.log("account");
 })
 
-.controller('LoginCtrl', function($score){
+.controller('LoginCtrl', function($scope){
   console.log("login");
+  $scope.sendForm = function(){
+    console.log('entro al login');
+    if(true){
+      window.location.href='#/tab/chart';
+    }
+  }
+})
+.controller('LineCtrl',function($scope){
+  //console.log('CHART');
+  $scope.labels = ["January", "February", "March", "April", "May", "June", "July"];
+  $scope.series = ['Series A', 'Series B'];
+  $scope.data = [
+    [65, 59, 80, 81, 56, 55, 40],
+    [28, 48, 40, 19, 86, 27, 90]
+  ];
+  $scope.onClick = function (points, evt) {
+    console.log(points, evt);
+  };
+  $scope.datasetOverride = [{ yAxisID: 'y-axis-1' }/*, { yAxisID: 'y-axis-2' }*/];
+  $scope.options = {
+    scales: {
+      yAxes: [
+        {
+          id: 'y-axis-1',
+          type: 'linear',
+          display: true,
+          position: 'left'
+        },
+        /*{
+          id: 'y-axis-2',
+          type: 'linear',
+          display: true,
+          position: 'right'
+        }*/
+      ]
+    }
+  };
 })
 
 .controller('CashCtrl', ['$scope', '$http', '$state', function($scope, $http, $state){
