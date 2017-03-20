@@ -182,4 +182,9 @@ ion-tabs.tabs-striped.tabs-color-active-balanced .tab-item.tab-item-active, ion-
     background-color: rgba(210, 210, 210, .5) !important;
     color: black !important;
 }
-
+/*tamaño de alto de la barra inferior de navegacion*//*
+.tab-nav{
+    height: 70px;
+    position: fixed !important;
+    bottom: 0px;
+}*/

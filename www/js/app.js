@@ -126,11 +126,11 @@ angular.module('starter', ['ionic','chart.js','starter.controllers', 'starter.se
 });
 
 //notificationes firebase android
-/*window.FirebasePlugin.onNotificationOpen(function(notification) {
+window.FirebasePlugin.onNotificationOpen(function(notification) {
     console.log(notification);
 }, function(error) {
     console.error(error);
 });
 
 //notificaciones firebase ios
-window.FirebasePlugin.grantPermission();*/
+window.FirebasePlugin.grantPermission();

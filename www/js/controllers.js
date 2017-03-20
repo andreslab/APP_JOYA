@@ -9,7 +9,7 @@ angular.module('starter.controllers', [])
   //console.log("store detail");
 }])
 
-.controller('StoreDetailCtrl', ['$scope','chart.js', '$http', '$state', function($scope, $http, $state){
+.controller('StoreDetailCtrl', ['$scope', '$http', '$state', function($scope, $http, $state){
   //$http.get('js/data.json')
   $http.get('https://www.lajoya.ec/wp-json/api/v1/casas')
   .success(function(data_filter){
@@ -76,6 +76,14 @@ angular.module('starter.controllers', [])
       ]
     }
   };
+
+  $scope.labels_line = ['Ricardo Gomez', 'Francisco Mendoza', 'Alfonso Rodriguez', 'Solange vasquez', 'Oliver Alarcón', 'Ricardo Flores', 'Fiorela Moreira', 'Ricardo Gomez', 'Francisco Mendoza', 'Alfonso Rodriguez', 'Solange vasquez', 'Oliver Alarcón', 'Ricardo Flores', 'Fiorela Moreira'];
+  $scope.series_line = ['Series A', 'Series B'];
+
+  $scope.data_line = [
+    [65, 59, 80, 81, 56, 55, 40, 20, 40, 10, 81, 26, 55, 20]/*,
+    [28, 48, 40, 19, 86, 27, 90]*/
+  ];
 })
 
 .controller('UserCtrl', ['$scope', '$http', '$state', function($scope, $http, $state){
